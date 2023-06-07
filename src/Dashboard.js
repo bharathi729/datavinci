@@ -4,7 +4,7 @@ import Scorecard from './Scorecard';
 import Counter from './Counter';
 import Table from './Table';
 import RatingScorecard from './RatingScorecard';
-import "./Table.css"
+import "./Table.css";
 // Dummy data for scorecards, graph, and table
 const userRatingData = [
     { title: 'User Rating', value: 4.5 },
@@ -75,16 +75,16 @@ const Dashboard = () => {
         ))}
       </div>
       <div className='main'>
-       {/* Scorecards */}
-       <div className="scorecards">
-        <Scorecard />
-      </div>
+        {/* Scorecards */}
+        <div className="scorecards">
+          <Scorecard />
+        </div>
 
 
-      {/* Graph */}
-      <div className="graph">
-        <Graph data={graphData} />
-      </div>
+        {/* Graph */}
+        <div className="graph">
+          <Graph data={graphData} />
+        </div>
       </div>
       {/* Filters */}
       <div className='main-btm'>
@@ -107,7 +107,7 @@ const Dashboard = () => {
             onChange={handleDateRangeChange}
           />
         </label>
-        <label className='date'>
+        <label className='dim'>
           <b>Dimension:</b>
           <select value={selectedDimension} onChange={handleDimensionChange}>
             <option value="">All</option>
