@@ -1,0 +1,78 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  margin-top: 50px;
+}
+
+table thead {
+  height: 50px;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  
+}
+table thead tr th {
+  text-transform: capitalize;
+  font-size: 16px;
+  line-height: 19px;
+  color:black;
+  text-align: left;
+  padding: 0 30px;
+  font-weight: 400;
+}
+table tbody tr {
+  height: 50px;
+}
+table tbody tr:nth-of-type(2n) {
+  background-color: #fafafa;
+}
+table tbody tr td {
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 500;
+  text-align: left;
+  color: #6b6767;
+  text-transform: capitalize;
+  padding: 0 30px;
+  letter-spacing: 0.3px;
+}
+table tbody tr td button {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.date{
+    padding-left: 2rem;
+}
+.graph{
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+}
+.scorecards{
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left:1.6rem;
+    
+}
+.scorecard{
+    padding-top: 1rem;
+    padding: 1rem 2rem 2rem 1rem;
+    box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    padding: 0rem 2rem 2rem 0rem;
+    margin: 2rem 0 2rem 0;
+    box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
+}
+.main-btm{
+    box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
+}
+.filters{
+    padding-top: 2rem;
+}
