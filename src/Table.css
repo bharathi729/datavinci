@@ -86,7 +86,7 @@ table tbody tr td button {
    
   }
   .graph{
-    padding-left: 1rem;
+    padding-left: 0rem;
   }
   .filters{
     display: flex;
@@ -99,6 +99,9 @@ table tbody tr td button {
   .dim{
     padding-top: 1rem;
     padding-left: 0rem;
+  }
+  table{
+    width:50%;
   }
 }
   
